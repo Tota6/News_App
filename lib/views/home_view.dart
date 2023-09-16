@@ -27,7 +27,7 @@ class HomeView extends StatelessWidget {
           ],
         ),
       ),
-      body: CustomScrollView(
+      body: const CustomScrollView(
         physics: BouncingScrollPhysics(),
         slivers: [
           SliverToBoxAdapter(child: CategoriesListView()),
